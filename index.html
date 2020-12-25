@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servidor</title>
+    <script>
+        function validarPassword() {
+            texto = prompt("introducir contraseña");
+            while(texto!= "flip360") {
+                alert("constraseña incorrecta");
+                texto = prompt("introducir contraseña");
+            }
+            alert("contraseña cprrecta");
+        }
+    </script>
 </head>
 <body>
     <p>Proyectos</p>
-    <a href="/PRJ_demo1/index.html"></a>
+    <a href="/PRJ_demo1/index.html">demo1</a>
+    <a href="/PRJ_demo1/index.html">2</a>
+
+
+
+    <script>validarPassword();</script>
     
 </body>
 </html>
