@@ -1,0 +1,16 @@
+body, html {
+    margin: 0;
+}
+.background {
+    background-color: #76cc3d;
+    height: 100vh;
+}
+h1 {
+    
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 400px;
+    font-size: 60px;
+    color: white;
+
+}
