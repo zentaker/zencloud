@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Pymes Digital</title>
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="https://use.typekit.net/bvn5hmp.css">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
+
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+
+<!-- MAIN CSS -->
+<link rel="stylesheet" href="css/tooplate-style.css">
+
+</head>
+<body>
+
+<!-- PRE LOADER -->
+<div class="preloader">
+     <div class="spinner">
+          <span class="sk-inner-circle"></span>
+     </div>
+</div>
+
+
+<!-- MENU -->
+<div class="navbar custom-navbar navbar-fixed-top" role="navigation">
+     <div class="container">
+
+          <!-- NAVBAR HEADER -->
+          <div class="navbar-header">
+               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+               </button>
+               <!-- lOGO -->
+               <a href="index.html" class="navbar-brand"><img src="./images/logo.png" alt=""></a>
+          </div>
+
+          <!-- MENU LINKS -->
+          <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home" class="smoothScroll">Inicio</a></li>
+                    <li><a href="#about" class="smoothScroll">Chequeo digital</a></li>
+                    <li><a href="#team" class="smoothScroll">Tranformación</a></li>  
+                    <li><a href="#contact" class="smoothScroll">Contacto</a></li>
+               </ul>
+          </div>
+
+     </div>
+</div>
+
+
+<!-- HOME -->
+<section id="home" class="parallax-section">
+     <div class="overlay"></div>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-8 col-sm-12">
+                    <div class="home-text">
+                         <h1>Digitalizacion para <span id="js-rotating">Pequeñas Empresas. , Medianas Empresas. , Autonomos.</span></h1>
+                         <p>Integra tu negocio al mundo digital con pymes digital</p>
+                         <ul class="section-btn">
+                              <a href="#about" class="smoothScroll"><span data-hover="Mas información">Quiero digitalizarme</span></a>
+                         </ul>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+
+     <!-- Video -->
+     <video controls autoplay loop muted>
+          <source src="videos/video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+     </video>
+</section>
+
+
+
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/morphext.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/parallax.js"></script>
+<script src="js/rotate.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/masonry.js"></script>
+<script src="js/masonry-4-col.js"></script>
+<!-- VIDEO BG PLUGINS -->
+<script src="videos/libs/swfobject.js"></script> 
+<script src="videos/libs/modernizr.video.js"></script> 
+<script src="videos/libs/video_background.js"></script> 
+<script>
+    jQuery(document).ready(function($) {
+        var Video_back = new video_background($("#home"), { 
+            "position": "absolute", //Follow page scroll
+            "z-index": "-1",        //Behind everything
+            "loop": true,           //Loop when it reaches the end
+            "autoplay": true,       //Autoplay at start
+            "muted": true,          //Muted at start
+            "mp4":"videos/video.mp4" ,     //Path to video mp4 format
+            "video_ratio": 1.7778,              // width/height -> If none provided sizing of the video is set to adjust
+            "fallback_image": "images/dummy.png",   //Fallback image path
+            "priority": "html5"             //Priority for html5 (if set to flash and tested locally will give a flash security error)
+        });
+    });
+</script>
+
+</body>
+</html>
