@@ -33,14 +33,14 @@
       <div class="card-body">
         <h4 class="">El mercader</h4>
         <p class="card-text">Loader de la pagina web del Mercader</p>
-        <a href="proyectos/elmercader/index.html" class="btn btn-primary">Acceder</a>
+        <a href="proyectos/elmercader/index.html" target="_blank" class="btn btn-primary">Acceder</a>
       </div>
     </div>
     <div class="card">
       <div class="card-body">
         <h4 class="">PymesDigital</h4>
         <p class="card-text">Landing Page de Pymes digital</p>
-        <a href="proyectos/Pymesdigital/index.html" class="btn btn-primary">Acceder</a>
+        <a href="proyectos/Pymesdigital/index.html" target="_blank" class="btn btn-primary">Acceder</a>
       </div>
     </div>
  
